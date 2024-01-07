@@ -1,0 +1,65 @@
+1 <!DOCTYPE html>
+2 
+3 <html lang="en">
+4 <head>
+5   <meta charset="UTF-8">
+6    <title>CatPhotoApp</title>
+7 </head>
+8  <body>
+9    <main>
+10      <h1>CatPhotoApp</h1>
+11      <section>
+12        <h2>Cat Photos</h2>
+13        <!-- TODO: Add link to cat photos -->
+14        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+15        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+16      </section>
+17      <section>
+18        <h2>Cat Lists</h2>
+19        <h3>Things cats love:</h3>
+20        <ul>
+21          <li>cat nip</li>
+22          <li>laser pointers</li>
+23          <li>lasagna</li>
+24        </ul>
+25        <figure>
+26          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+27          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+28        </figure>
+29        <h3>Top 3 things cats hate:</h3>
+30        <ol>
+31          <li>flea treatment</li>
+32          <li>thunder</li>
+33          <li>other cats</li>
+34        </ol>
+35        <figure>
+36          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+37          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+38        </figure>
+39      </section>
+40      <section>
+41        <h2>Cat Form</h2>
+42        <form action="https://freecatphotoapp.com/submit-cat-photo">
+43          <fieldset>
+44            <legend>Is your cat an indoor or outdoor cat?</legend>
+45            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+46            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+47          </fieldset>
+48          <fieldset>
+49            <legend>What's your cat's personality?</legend>
+50            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+51            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+52            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+53          </fieldset>
+54          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+55          <button type="submit">Submit</button>
+56        </form>
+57      </section>
+58    </main>
+59    <footer>
+60      <p>
+61        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+62      </p>
+63    </footer>
+64  </body>
+65</html>
